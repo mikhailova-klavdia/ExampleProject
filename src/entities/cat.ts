@@ -1,8 +1,13 @@
 import { Animal } from './animal';
 
+
 export class Cat extends Animal {
-  constructor(name: string, private color: string) {
-    super(name);
+  constructor(
+    id: number,
+    name: string,
+    private color: string,
+  ) {
+    super(id, name);
   }
 
   getColor(): string {

@@ -1,8 +1,12 @@
 import { Animal } from './animal';
 
 export class Dog extends Animal {
-  constructor(name: string, private breed: string) {
-    super(name);
+  constructor(
+    id: number,
+    name: string,
+    private breed: string,
+  ) {
+    super(id, name);
   }
 
   getBreed(): string {
