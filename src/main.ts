@@ -1,5 +1,5 @@
-import { add, subtract, multiply, divide, reverseString, uppercase, lowercase, factorial } from "./helpers";
-import { Person } from "./myClass";
+import { add, subtract, multiply, divide, reverseString, uppercase, lowercase, factorial } from "./calculations/helper";
+import { Person } from "./calculations/myClass";
 
 function main() {
   console.log("Testing helper functions:");
